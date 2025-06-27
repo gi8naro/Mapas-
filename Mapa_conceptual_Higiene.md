@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Higiene de los Alimentos] -->|Conjunto de condiciones y medidas para garantizar la seguridad y salubridad| B(Limpieza y Desinfección)
     A -->|Se previene mediante| C(Contaminación de los Alimentos)

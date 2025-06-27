@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    A[Higiene de los Alimentos] -->|Conjunto de condiciones y medidas para garantizar la seguridad y salubridad| B(Limpieza y Desinfección)
+    A[Higiene de los Alimentos] -->|Conjunto de condiciones y medidas necesarias para garantizar la seguridad y salubridad| B(Limpieza y Desinfección)
     A -->|Se previene mediante| C(Contaminación de los Alimentos)
     A -->|Apoya a| D(Control Microbiológico de los Alimentos)
     A -->|Componente clave de| E(Manipulación de Alimentos)
@@ -22,18 +22,16 @@ graph TD
     M -->|Garantizan cumplimiento de| N(Inspección, Verificación y Certificación)
 
     subgraph Detalles
-        F[Limpieza]:::definition
-        G[Desinfección]:::definition
-        C[Contaminación de los Alimentos]:::definition
-        H[Contaminación Cruzada]:::definition
-        J[Higiene Personal]:::definition
-        D[Control Microbiológico de los Alimentos]:::definition
-        K[Preparación de Alimentos]:::definition
-        L[Almacenamiento de Alimentos]:::definition
-        E[Manipulación de Alimentos]:::definition
-        M[Normas Sanitarias]:::definition
-        N[Inspección, Verificación y Certificación]:::definition
-        I[Enfermedades Transmitidas por Alimentos (ETA)]:::definition
+        F
+        G
+        C
+        H
+        J
+        D
+        K
+        L
+        E
+        M
+        N
+        I
     end
-
-    classDef definition fill:#f9f,stroke:#333,stroke-width:2px;
